@@ -1,8 +1,27 @@
 <template>
   <h2>Manuelle Einstellungen</h2>
 
-  <button>EIN für 1 Minute</button>
-  <button>EIN für 3 Minuten</button>
+  <section>
+    <button>einmalig EIN für 1 Minute</button>
+    <button>einmalig EIN für 3 Minuten</button>
+  </section>
+
+  <section>
+    <h3>aktuelle Einstellungen ändern:</h3>
+    <form>
+      <label name="nameConfiguration">Bezeichnung:</label>
+      <input for="nameConfiguration" type="text">
+
+      <label name="duration">Dauer (in min):</label>
+      <input for="duration" type="number">
+
+      <label name="zyklus">Zyklus (Uhrzeit):</label>
+      <input for="zyklus">
+
+      <button>Speichern</button>
+    </form>
+  </section>
+
 </template>
 <script>
 export default {

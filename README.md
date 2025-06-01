@@ -7,7 +7,7 @@ System für den Raspberry Pi für eine Bewässerungsanlage des Gartenhauses.
 Webbasierte Anwendung (vermutlich Angular)
 - geschützt über Passwort (htaccess)
 - übersichtliche Darstellung von aktuellem Status
-- manuelles schalten der Anlage, durch erstellen einer neuen Konfigurationsdatei (Mange und Dauer manuell festlegen)
+- manuelles schalten der Anlage, durch erstellen einer neuen Konfigurationsdatei (Menge und Dauer manuell festlegen)
 - Notfall-Aus Button
 - schlankes Design mobil-optimiert
 - Benachrichtigung von Statusänderungen und wenn z.B. Regentonne leer sein könnte (nach x Tagen)
